@@ -1,0 +1,32 @@
+{
+  "name": "soccerrank",
+  "version": "1.0.0",
+  "description": "Command-line tool for calculating the ranking table for a soccer league from text file",
+  "main": "index.js",
+  "bin": {
+    "soccerrank": "./index.js"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text"
+    ]
+  },
+  "scripts": {
+    "test": "jest *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/idokleinman/soccerrank.git"
+  },
+  "author": "Ido Kleinman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/idokleinman/soccerrank/issues"
+  },
+  "homepage": "https://github.com/idokleinman/soccerrank#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
